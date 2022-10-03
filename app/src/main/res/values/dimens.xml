@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Login_Width">200dp</dimen>
+    <dimen name="Login_Height">48dp</dimen>
+    <dimen name="Button_Height">50dp</dimen>
+    <dimen name="Button_Width">100dp</dimen>
+    <dimen name="Welcome_Text_Size">20sp</dimen>
+    <dimen name="Button_Text_Size">14sp</dimen>
+    <dimen name="Text_Size">18sp</dimen>
+</resources>
