@@ -42,7 +42,7 @@ class LoginPage : Fragment() {
             else {
                 Navigation.findNavController(view).navigate(R.id.action_loginPage_to_welcomeFragment)
             }
-            Navigation.findNavController(view).navigate(R.id.action_loginPage_to_welcomeFragment)
+
         }
 
         return binding.root
