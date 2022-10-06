@@ -3,7 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".ShoeListFragment">
-
+    <!--
+        I used relative layout to hold the scroll view and the linear layout inside it
+        While I have the second Linear Layout to place the Floating action button in the bottom right corner
+        -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">

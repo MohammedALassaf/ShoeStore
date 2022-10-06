@@ -21,7 +21,7 @@ import timber.log.Timber
 
 class ShoeDetail : Fragment() {
 
-    val viewModel: ShoeDetailViewModel by activityViewModels()
+    private val viewModel: ShoeDetailViewModel by activityViewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

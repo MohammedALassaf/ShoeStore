@@ -18,5 +18,6 @@
     <string name="Company">Company Name</string>
     <string name="Shoe_Size">Shoe Size</string>
     <string name="Description">Description</string>
+    <string name="log_out">Log Out</string>
 
 </resources>

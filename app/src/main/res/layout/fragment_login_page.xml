@@ -3,10 +3,14 @@
 <layout xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-
+    <!--
+            This layout uses the constraint layout to make sure that each view is exactly where it should be on different screens
+            depending on the size of the screen the margins will be the same
+             -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:text="Hello">
 
 
         <TextView

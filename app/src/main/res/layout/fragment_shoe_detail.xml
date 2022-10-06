@@ -4,7 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
 
     tools:context=".ShoeDetail">
-
+    <!--
+            This layout uses the constraint layout to make sure that each view is exactly where it should be on different screens
+            depending on the size of the screen the margins will be the same
+             -->
+    <data>
+        <variable
+            name="Shoe"
+            type="com.udacity.shoestore.models.Shoe" />
+    </data>
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -49,6 +57,7 @@
             android:layout_marginTop="16dp"
             android:ems="10"
             android:hint="@string/Shoe_Name"
+            android:text="@{Shoe.name}"
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -62,6 +71,7 @@
             android:layout_marginTop="16dp"
             android:ems="10"
             android:hint="@string/Company"
+            android:text="@{Shoe.company}"
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -85,6 +95,7 @@
             android:layout_height="@dimen/Login_Height"
             android:layout_marginTop="16dp"
             android:ems="10"
+            android:text="@{Shoe.description}"
             android:hint="@string/Description"
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
@@ -100,6 +111,7 @@
             android:fontFamily="@font/roboto"
             android:text="@string/Shoe_Name"
             android:textColor="@android:color/black"
+
             android:textSize="@dimen/Text_Size"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.154"

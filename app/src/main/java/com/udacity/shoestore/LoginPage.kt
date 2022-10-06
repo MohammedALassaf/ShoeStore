@@ -31,10 +31,9 @@ class LoginPage : Fragment() {
             else {
                 Navigation.findNavController(view).navigate(R.id.action_loginPage_to_welcomeFragment)
             }
-            Navigation.findNavController(view).navigate(R.id.action_loginPage_to_welcomeFragment)
 
         }
-        //The complete onClickListener with Navigation using createNavigateOnClickListener
+
         binding.signUpButton.setOnClickListener{view: View ->
             if (TextUtils.isEmpty(binding.EmailID.text) or TextUtils.isEmpty(binding.passwordText.text)){
                 Toast.makeText(this.context, "Please Enter Email and Password", Toast.LENGTH_SHORT).show()

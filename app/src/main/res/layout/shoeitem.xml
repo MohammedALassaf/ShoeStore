@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+        This Layout has multiple constraints
+        1: This is the first Linear Layout and it groups all the other
+        constraints the use of this is to compress the shoe item in a small place
+        2:This is for the first line which shows the shoe name textview and show's it's value
+        3: this is for the second line which shows the company textview and show's it's value and shoe size
+        4: This is for the last line which holds the description textview and it's value
 
+        The reason I went with nested linear layout it is to make the box where the values are
+        shown seems as it is a rows and columns
+        -->
     <data>
-
         <variable
             name="Shoe"
             type="com.udacity.shoestore.models.Shoe" />
-
-
     </data>
 
     <LinearLayout
